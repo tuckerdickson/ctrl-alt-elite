@@ -10,7 +10,6 @@ import ryanPortrait from '../images/ryan_portrait.jpg'
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
 import cathrynPortrait from '../images/cathrynlyonss.jpeg'
 import abigailPortrait from '../images/abigail_portrait.jpeg'
-import groupPhoto from '../images/group_photo.png'
 
 
 const Abigail =
