@@ -1,0 +1,181 @@
+/* Navbar */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+}
+
+.left {
+    display: flex;
+
+}
+
+.navbar-wrapper > .left > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.navbar-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navbar-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navbar-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.navbar-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;   
+}
+
+.active-nav-link a {
+    color: black !important;
+    font-size: large;
+}
+
+/* Tucker */
+.content-tucker {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.skills-tucker {
+    margin-top: 10%;
+}
+
+.experience-tucker {
+    margin-top: 10%;
+}
+
+.contact-tucker {
+    margin-top: 10%;
+}
+
+.icons {
+    width: 32%;
+    padding-bottom: 20px;
+}
+
+ion-icon {
+    color: black;
+    font-size: 32px;
+    padding-right: 20px;
+    align-self: center;
+}
+
+/* Other */
+.portraitImage
+{
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 260px;
+    height: 260px;
+}
+
+.aboutImage {
+    /* border-radius: 25px; */
+    width: 100%;
+    height: 100%;
+}
+
+.about-paragraph {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.portraitImage:hover
+{
+    opacity: 0.5;
+    /* filter: brightness(50%) */
+}
+
+html{
+    background: url("../images/cathryn_images/whitewood.jpeg") repeat center center fixed;
+    height: 100%;
+}
+
+body{
+    /* background: url("../images/woodBackground.jpg") no-repeat center center fixed; */
+    min-height: 100%;
+    background-color: #98c1d9;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    background-size: 100% 100vh;
+    /* display: flex; */
+    width: 85%;
+    font-family:  "UbuntuMono";
+    border-radius: 10px;
+}
+
+.pageinfo{
+    text-align: center;
+}
+
+.team-text {
+    padding-top: 1%;
+}
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#background{
+    background-color: #98c1d9;
+    /* border-left: 5px solid black; */
+    /* border-right: 5px solid black; */
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: large;
+}
+
+#indexheader{
+    width: 50%;
+    height: 60px;
+    background-color: #3d5a80;
+    margin-left: 25%;
+    border-radius: 10px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.blink {
+    animation: blink 1.1s linear infinite alternate;
+}
+
+@keyframes blink {
+    from {opacity: 1;}
+    20% {opacity: 1;}
+    28% {opacity: 0;}
+    72% {opacity: 0;}
+    80% {opacity: 1;}
+    to {opacity: 1;}
+}
+
+
+

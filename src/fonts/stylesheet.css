@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Monoid';
+    src: url('Monoid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "UbuntuMono";
+    src: url(UbuntuMono-R.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
