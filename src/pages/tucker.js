@@ -92,6 +92,7 @@ const TuckerPage = () => {
           <h1>Connect With Me!</h1>
           <center>
             <div class = "icons">
+              {PageWithComments.render}
               <a href = "https://twitter.com/DicksonTucker" target = "_blank" rel="noreferrer">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
