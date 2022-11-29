@@ -1,6 +1,10 @@
 import * as React from "react"
 import { Script } from "gatsby"
 
+//importing stylesheets
+import '../fonts/stylesheet.css';
+import '../css/index.css';
+
 //importing images
 import kona1 from '../images/cathryn_images/KonaInCoat.jpeg'
 import kona2 from '../images/cathryn_images/KonaOnCouch.jpeg'

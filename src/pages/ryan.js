@@ -1,5 +1,9 @@
 import * as React from "react"
 
+//importing stylesheets
+import '../fonts/stylesheet.css';
+import '../css/index.css';
+
 const RyanPage = () => {
   return (
     <main>

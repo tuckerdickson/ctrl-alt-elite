@@ -1,6 +1,10 @@
 import * as React from "react"
 import { Script } from "gatsby"
 
+//importing stylesheets
+import '../fonts/stylesheet.css';
+import '../css/index.css';
+
 //importing images
 import volleyball from '../images/abigail_images/volleyball.jpg'
 import calligraphy from '../images/abigail_images/calligraphy.jpg'
