@@ -1,12 +1,14 @@
 import * as React from "react"
 import { Script } from "gatsby"
+import commentBox from 'commentbox.io';
+
 
 //importing stylesheets
 import '../fonts/stylesheet.css';
 import '../css/index.css';
 
 //importing images
-
+commentBox('5710522657800192-proj');
 const TuckerPage = () => {
   return (
     <main>
@@ -72,35 +74,32 @@ const TuckerPage = () => {
 
         <div class = "contact-tucker">
           <h1>Connect With Me!</h1>
+          <center>
+            <div class = "icons">
+              <a href = "https://twitter.com/DicksonTucker" target = "_blank" rel="noreferrer">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
 
-          <div class = "icons">
-            <a href = "https://twitter.com/DicksonTucker" target = "_blank" rel="noreferrer">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
+              <a href = "https://www.instagram.com/tuckerdickson/?hl=en" target = "_blank" rel="noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
 
-            <a href = "https://www.instagram.com/tuckerdickson/?hl=en" target = "_blank" rel="noreferrer">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
+              <a href = "http://www.linkedin.com/in/tucker-dickson-58526a1bb" target = "_blank" rel="noreferrer">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
 
-            <a href = "http://www.linkedin.com/in/tucker-dickson-58526a1bb" target = "_blank" rel="noreferrer">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
+              <a href = "https://github.com/tuckerdickson" target = "_blank" rel="noreferrer">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
 
-            <a href = "https://github.com/tuckerdickson" target = "_blank" rel="noreferrer">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-
-            <a href = "mailto:nathan-dickson@uiowa.edu?">
-              <ion-icon name="mail-outline"></ion-icon>
-            </a>
-          </div>
+              <a href = "mailto:nathan-dickson@uiowa.edu?">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </div>
+          </center>
         </div>
+        <div class="commentbox"></div>
       </div>
-
-      <div class="commentbox"></div>
-      <Script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></Script>
-      <Script>commentBox('5710522657800192-proj')</Script>
-
       <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
       <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
     </main>
