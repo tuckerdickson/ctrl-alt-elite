@@ -9,6 +9,22 @@ import '../css/index.css';
 
 //importing images
 
+class PageWithComments extends React.Component {
+    componentDidMount() {
+      this.removeCommentBox = commentBox('my-project-id');
+    }
+
+    componentWillUnmount() {
+      this.removeCommentBox();
+    }
+
+    render() {
+        return (
+            <div className="commentbox" />
+        );
+    }
+}
+
 const TuckerPage = () => {
   return (
     <main>
