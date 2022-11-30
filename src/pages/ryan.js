@@ -7,6 +7,8 @@ import pumpkin from '../images/ryan_images/pumpkin_roll.jpg'
 import sketch from '../images/ryan_images/sketch.jpg'
 import research from '../images/ryan_images/research.jpg'
 
+import '../fonts/stylesheet.css';
+import '../css/index.css';
 
 import commentBox from 'commentbox.io';
 
