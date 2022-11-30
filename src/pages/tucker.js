@@ -1,6 +1,10 @@
 import * as React from "react"
 import { Script } from "gatsby"
 
+//importing stylesheets
+import '../fonts/stylesheet.css';
+import '../css/index.css';
+
 //importing images
 import tuckerPortrait from '../images/tucker_portrait.jpeg'
 
