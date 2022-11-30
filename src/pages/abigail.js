@@ -35,6 +35,7 @@ class PageWithComments extends React.Component {
 const AbigailPage = () => {
   return (
     <main>
+      <div id = "background">
       <div class="navbar-wrapper">
           <div class="left">
               <div class="navbar-link-wrapper">
@@ -111,6 +112,7 @@ const AbigailPage = () => {
 
           </div>
           </center>
+        </div>
         </div>
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
         <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
