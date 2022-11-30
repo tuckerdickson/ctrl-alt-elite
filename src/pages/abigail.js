@@ -104,6 +104,11 @@ const AbigailPage = () => {
             <a href = "https://github.com/abbybright" target = "_blank" rel="noreferrer">
               <ion-icon name="logo-github"></ion-icon>
             </a>
+
+            <a href = "mailto:abigail-bright@uiowa.edu?">
+							<ion-icon name="mail-outline"></ion-icon>
+						</a>
+
           </div>
           </center>
         </div>

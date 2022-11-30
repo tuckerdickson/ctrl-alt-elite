@@ -63,7 +63,7 @@ const RyanPage = () => {
       <div id = "background">
       <center>
       <p>Hello, I'm Ryan! I'm a senior, majoring in Electrical and Computer Engineering at the University of Iowa.</p>
-      <img src = {ryanPortrait} height = "25%" width = "25%"  alt = {ryanPortrait} class = "portraitImage"></img>
+      <img src = {ryanPortrait} height = "25%" width = "25%"  alt = {ryanPortrait} class = "portraitImage2"></img>
       </center>
 
       <h1>Interests/Hobbies</h1>
