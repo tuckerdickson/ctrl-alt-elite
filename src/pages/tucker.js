@@ -59,7 +59,7 @@ const TuckerPage = () => {
 
       <div class = "content-tucker">
         <center>
-          <img src = {tuckerPortrait} class = "portraitImage" alt = "tucker"></img>
+          <img src = {tuckerPortrait} class = "portraitImage2" alt = "tucker"></img>
         </center>
         <div class = "about-tucker">
           <div class = "about-tucker-text">

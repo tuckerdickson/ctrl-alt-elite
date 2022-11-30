@@ -69,7 +69,7 @@ const CathrynPage = () => {
 		
 		<center>
 		<p>Hi, I'm Cathryn. I'm a senior, majoring in Computer Science and Engineering at the University of Iowa.</p>
-		<img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "portraitImage"></img>
+		<img src = {cathrynPortrait} height = "25%" width = "25%"  alt = {cathrynPortrait} class = "portraitImage2"></img>
 		</center>
 
 		<h1>Pets</h1>
