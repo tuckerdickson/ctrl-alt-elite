@@ -87,6 +87,14 @@ ion-icon {
     height: 260px;
 }
 
+.portraitImage2
+{
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 260px;
+    height: 260px;
+}
+
 .aboutImage {
     /* border-radius: 25px; */
     width: 100%;
