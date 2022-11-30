@@ -63,8 +63,8 @@ const CathrynPage = () => {
 
 		<p></p>
 		<div id="indexheader">
-		<h1>About Cathryn</h1>
-		<span class="blink">_</span>
+			<h1>About Cathryn</h1>
+			<span class="blink">_</span>
 		</div>
 		
 		<center>
