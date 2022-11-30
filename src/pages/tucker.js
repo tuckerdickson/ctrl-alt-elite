@@ -1,29 +1,8 @@
 import * as React from "react"
 import { Script } from "gatsby"
-import commentBox from 'commentbox.io';
-
-
-//importing stylesheets
-import '../fonts/stylesheet.css';
-import '../css/index.css';
 
 //importing images
-
-class PageWithComments extends React.Component {
-    componentDidMount() {
-      this.removeCommentBox = commentBox('my-project-id');
-    }
-
-    componentWillUnmount() {
-      this.removeCommentBox();
-    }
-
-    render() {
-        return (
-            <div className="commentbox" />
-        );
-    }
-}
+import tuckerPortrait from '../images/tucker_portrait.jpeg'
 
 const TuckerPage = () => {
   return (
@@ -54,11 +33,14 @@ const TuckerPage = () => {
       </div>
 
       <div class = "content-tucker">
+        <center>
+          <img src = {tuckerPortrait} class = "portraitImage" alt = "tucker"></img>
+        </center>
         <div class = "about-tucker">
           <div class = "about-tucker-text">
             <h1>About Me</h1>
             <font size="+1">
-              <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa.</p>
+              <p>Hello! My name is Tucker Dickson and I'm a Computer Science & Engineering undergraudate at the University of Iowa. I'm originally from Mount Vernon, Iowa, a small town in the eastern part of the state. After graduating in May 2023, I would like to pursue a Master's program in either Electrical & Computer Engineering or Computer Science! </p>
             </font>
           </div>
         </div>
@@ -80,19 +62,23 @@ const TuckerPage = () => {
           <h1>Professional Experience</h1>
           <h2>Internships</h2>
           <font size="+1">
-            <p></p>
+            <p>Over the past three years, I have held a position as as intern at two different companies. From January 2021 until August 2021, I worked as a programmer analyst intern for GreatAmerica Financial Services Corporation in Cedar Rapids, Iowa. In that role, I helped maintain the company's databases and improve custom comapny applications. Since May of 2022, I have been serving as a software engineering intern at Collins Aerospace in Cedar Rapids, Iowa. In this role, I help test software that goes into airplane cockpit displays.
+            </p>
           </font>
           <h2>Assistantships</h2>
           <font size="+1">
-            <p></p>
+            <p>During the Fall 2021 and Spring 2022 semesters, I served as a teaching assistant for ENGR:2730 Computers in Engineering. This was something that I really enjoyed doing, and would like to get back into during my final semester!</p>
           </font>
         </div>
 
         <div class = "contact-tucker">
           <h1>Connect With Me!</h1>
+          <font size="+1">
+            <p>The icons below are linked to my Twitter, Instagram, LinkedIn, Github, and email accounts. If you would like to connect with me or check out my past work, go ahead and give them a click!</p>
+          </font>
+
           <center>
             <div class = "icons">
-              {PageWithComments.render}
               <a href = "https://twitter.com/DicksonTucker" target = "_blank" rel="noreferrer">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
@@ -115,7 +101,6 @@ const TuckerPage = () => {
             </div>
           </center>
         </div>
-
       </div>
       <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
       <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
