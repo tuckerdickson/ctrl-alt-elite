@@ -10,6 +10,27 @@ import volleyball from '../images/abigail_images/volleyball.jpg'
 import calligraphy from '../images/abigail_images/calligraphy.jpg'
 import ferrari from '../images/abigail_images/ferrari2.jpeg'
 import abigailPortrait from '../images/abigail_portrait.jpeg'
+import commentBox from 'commentbox.io';
+
+class PageWithComments extends React.Component {
+
+  componentDidMount() {
+
+      this.removeCommentBox = commentBox('5680389167251456-proj');
+  }
+
+  componentWillUnmount() {
+
+      this.removeCommentBox();
+  }
+
+  render() {
+
+      return (
+          <div className="commentbox" />
+      );
+  }
+}
 
 const AbigailPage = () => {
   return (
@@ -88,8 +109,7 @@ const AbigailPage = () => {
         </div>
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
         <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
-      
-
+        <PageWithComments />
     </main>
   )
 }
